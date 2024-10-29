@@ -1,0 +1,72 @@
+header{
+    background-color: #88896a;
+}
+
+@media (max-width: 760px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+header a span{
+    color: #fefdf2;
+} 
+
+.nav-link{
+    color: #fefdf2;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #cdbca2;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    color: #fefdf2;
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+main{
+    margin-top: 73px;
+}
+
+.carousel-inner img{
+    max-height: 30vw;
+    object-fit: cover;
+    object-position: center;
+}
+
+.bg-secondary-subtle{
+    background-image: url('img/fondo.jpg') !important;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.hero-img{
+    background-image: url(img/coffee-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    height: 402px !important;
+}
+
+footer{
+    background-color: #88896a;
+}
+
+footer span{
+    color: #fefdf2;
+}
