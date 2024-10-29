@@ -22,6 +22,12 @@ header{
     }
 }
 
+@media (max-width: 361px) {
+    main{
+        margin-top: 169px !important;
+    }
+}
+
 header a span{
     color: #fefdf2;
 }
