@@ -55,6 +55,16 @@ main{
 
 main h2{
     color: #9aa387;
+    padding: 0.5rem;
+    background-color: #fefdf2;
+    border-radius: 0.25rem;
+    font-weight: bold; 
+    text-align: center !important;   
+}
+
+.titulo-h2{
+    display: flex;
+    justify-content: center;
 }
 
 .bg-secondary-subtle{
