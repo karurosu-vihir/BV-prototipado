@@ -7,6 +7,19 @@ header{
         flex-direction: column;
         align-items: center;
     }
+    main{
+        margin-top: 129px !important;
+    }
+
+    .carousel-inner img{
+        max-height: 70vw !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .carousel-inner img{
+        max-height: 90vw !important;
+    }
 }
 
 header a span{
@@ -51,20 +64,19 @@ main h2{
     background-attachment: fixed;
 }
 
-.hero-img{
-    background-image: url(img/coffee-wallpaper.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.card-body .precio{
+    width: max-content;
+    padding: 0.5rem;
+    background-color: #88896a;
+    border-radius: 0.25rem;
+    color: #fefdf2;
+    font-weight: bold;
+
 }
 
 *{
     margin: 0;
     box-sizing: border-box;
-}
-
-.card{
-    height: 402px !important;
 }
 
 footer{
