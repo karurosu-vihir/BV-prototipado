@@ -1,0 +1,151 @@
+header{
+    background-color: #88896a;
+}
+
+@media (max-width: 760px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    main{
+        margin-top: 129px !important;
+    }
+}
+
+
+@media (max-width: 361px) {
+    main{
+        margin-top: 169px !important;
+    }
+}
+
+main{
+    margin-top: 73px;
+}
+
+header a span{
+    color: #fefdf2;
+}
+
+.nav{
+    justify-content: center;
+}
+
+.nav-link{
+    color: #fefdf2;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #cdbca2;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    color: #fefdf2;
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.bg-secondary-subtle{
+    background-image: url('img/fondo.jpg') !important;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.hero-img{
+    background-image: url(img/coffee-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    height: 402px !important;
+}
+
+footer{
+    background-color: #88896a;
+}
+
+footer span{
+    color: #fefdf2;
+}
+
+.custom-card {
+    width: 20rem;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    background-color: #fefdf2;
+}
+
+.row{
+    gap: 5px !important;
+    justify-content: center;
+}
+
+.image-wrapper {
+    height: 360px;
+    overflow: hidden;
+}
+
+.custom-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.custom-card:hover img {
+    transform: scale(1.1); 
+}
+
+/* Overlay */
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #fefdf2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 20px;
+    text-align: center;
+}
+
+.custom-card:hover .overlay {
+    opacity: 1;
+}
+
+.overlay-title {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.overlay-text {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
