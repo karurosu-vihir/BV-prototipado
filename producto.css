@@ -24,7 +24,11 @@ header{
 
 header a span{
     color: #fefdf2;
-} 
+}
+
+.nav{
+    justify-content: center;
+}
 
 .nav-link{
     color: #fefdf2;
