@@ -40,6 +40,10 @@ main{
     object-position: center;
 }
 
+main h2{
+    color: #9aa387;
+}
+
 .bg-secondary-subtle{
     background-image: url('img/fondo.jpg') !important;
     background-repeat: no-repeat;
