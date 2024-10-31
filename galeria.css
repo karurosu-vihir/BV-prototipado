@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 body {
@@ -15,8 +18,28 @@ header {
     z-index: 1000;
 }
 
+@media (max-width: 760px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    main{
+        margin-top: 139px !important;
+    }
+}
+
+@media (max-width: 361px) {
+    main{
+        margin-top: 179px !important;
+    }
+}
+
 header a span {
     color: #fefdf2;
+}
+
+.nav{
+    justify-content: center;
 }
 
 .nav-link {
@@ -38,7 +61,7 @@ header a span {
 }
 
 main {
-    margin-top: 73px;
+    margin-top: 83px;
     padding-top: 30px;
 }
 
