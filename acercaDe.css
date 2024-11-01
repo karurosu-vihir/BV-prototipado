@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden;
+}
+.hero{
+    position: relative;
+    width: 100vw;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.hero-img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
+    width: 100%;
+    z-index: -2;
+}
+body{
+    background-color: #FEFDF2;
+}
+
+.COLOR{
+    color: #88896A;
+    background-color: rgba(254, 253, 242, .70);
+}
+
+.container{
+    max-width: max-content;
+    padding: 7rem;
+}
+
+.stark{
+    font-weight: 400;
+}
+
+header{
+    background-color: #88896a;
+}
+
+@media (max-width: 760px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    main{
+        margin-top: 129px !important;
+    }
+
+    .carousel-inner img{
+        max-height: 70vw !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .carousel-inner img{
+        max-height: 90vw !important;
+    }
+}
+
+@media (max-width: 361px) {
+    main{
+        margin-top: 169px !important;
+    }
+}
+
+header a span{
+    color: #fefdf2;
+}
+
+.nav{
+    justify-content: center;
+}
+
+.nav-link{
+    color: #fefdf2;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #cdbca2;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    color: #fefdf2;
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+main{
+    margin-top: 73px;
+}
+
+.carousel-inner img{
+    max-height: 30vw;
+    object-fit: cover;
+    object-position: center;
+}
+
+main h2{
+    color: #9aa387;
+    padding: 0.5rem;
+    background-color: #fefdf2;
+    border-radius: 0.25rem;
+    font-weight: bold; 
+    text-align: center !important;   
+}
+
+.titulo-h2{
+    display: flex;
+    justify-content: center;
+}
+
+.bg-secondary-subtle{
+    background-image: url('img/fondo.jpg') !important;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.card-body .precio{
+    width: max-content;
+    padding: 0.5rem;
+    background-color: #88896a;
+    border-radius: 0.25rem;
+    color: #fefdf2;
+    font-weight: bold;
+
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #88896a;
+}
+
+footer span{
+    color: #fefdf2;
+}
